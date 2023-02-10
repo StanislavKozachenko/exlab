@@ -1,0 +1,42 @@
+.sidebar {
+  width: fit-content;
+  background-color: #d9d9d9;
+  padding: 20px 25px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+
+  &__create--btn {
+    text-align: center;
+    background-color: #d9d9d9;
+    margin-bottom: 40px;
+    font-size: 19px;
+    padding: 8px 35px;
+  }
+  &__invite--btn {
+    border: none;
+    text-align: left;
+    background-color: #d9d9d9;
+    margin: 40px 0;
+    font-size: 24px;
+  }
+  &__buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    button {
+      border: none;
+      background-color: transparent;
+      font-size: 19px;
+      margin-bottom: 10px;
+    }
+    ul {
+      margin-bottom: 40px;
+      font-size: 19px;
+      li {
+        margin-left: 15px;
+      }
+    }
+  }
+}

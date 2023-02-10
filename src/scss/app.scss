@@ -1,0 +1,25 @@
+@import './libs/normalize.scss';
+@import './components/all.scss';
+
+.wrapper {
+  height: 100%;
+  background-color: #fff;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+.content {
+  padding: 20px 0;
+}
+.home {
+  display: flex;
+  justify-content: space-between;
+}
+.container {
+  margin: 0 auto;
+}
+button {
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s all;
+}
